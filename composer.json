@@ -1,0 +1,61 @@
+{
+    "name": "platform/foundation",
+    "description": "The heartbeat of Platform 5, keeping your application healthy.",
+    "keywords": [
+        "cartalyst",
+        "platform",
+        "laravel",
+        "extension",
+        "foundation"
+    ],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cartalyst LLC",
+            "email": "help@cartalyst.com",
+            "homepage": "https://cartalyst.com"
+        }
+    ],
+    "repositories": [
+        { "type": "composer", "url": "https://packages.cartalyst.com" }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "cartalyst/alerts": "2.0.*",
+        "cartalyst/assetic-filters": "1.2.*",
+        "cartalyst/data-grid": "3.0.*",
+        "cartalyst/extensions": "2.1.*",
+        "cartalyst/filesystem": "3.0.*",
+        "cartalyst/sentinel": "2.0.*",
+        "cartalyst/settings": "2.0.*",
+        "cartalyst/themes": "3.0.*",
+        "cartalyst/widgets": "1.1.*",
+        "dompdf/dompdf": "~0.6",
+        "illuminate/routing": "~5.0",
+        "leafo/scssphp": "~0.1",
+        "league/fractal": "~0.10",
+        "lmammino/jsmin4assetic": "~1.0",
+        "natxet/CssMin": "~3.0",
+        "oyejorge/less.php": "~1.7"
+    },
+    "require-dev": {
+        "cartalyst/testing": "~2.0@dev",
+        "illuminate/config": "~5.0",
+        "illuminate/container": "~5.0",
+        "illuminate/http": "~5.0",
+        "symfony/http-kernel": "~2.3"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": { "Platform\\Foundation\\": "src" }
+    },
+    "extra": {
+        "component": "platform-package",
+        "branch-alias": {
+            "dev-master": "4.0.x-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
