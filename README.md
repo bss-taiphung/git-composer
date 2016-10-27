@@ -1,3 +1,4 @@
+
 # Platform Foundation
 
 [![Build Status](https://magnum.travis-ci.com/cartalyst/platform-foundation.svg?token=98Zt8zYdwyheTKqziswS&branch=4.0)](https://magnum.travis-ci.com/cartalyst/platform-foundation)
@@ -46,3 +47,4 @@ Bug reports, feature requests, and pull requests can be submitted by following o
 This software is released under the [Cartalyst PSL](LICENSE) License.
 
 © 2011-2016 Cartalyst LLC, All rights reserved.
+
